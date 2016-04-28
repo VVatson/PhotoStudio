@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
+using YouPhotoServerApp.Structures;
 
-namespace YouPhotoServerApp
+namespace YouPhotoServerApp.DataAccess
 {
-    interface IDataAccess
+    internal interface IDataAccess
     {
+        bool IsUserInBase(User user);
+        void Register(User user);
 
+        void MakeOrder(Order order);
+        void BreakOrder(Order order);
+        Status CheckOrderStatus(Order order);
+        void SetOrderStatus(Order order, Status status);
+        List<Order> GetOrders();
+        Order ProcessOrder(Order order);
     }
 }

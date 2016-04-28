@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            var service = new Service.Service();
+            var service = new Service.Service(new Model.Model());
+            service.Start();
         }
     }
 }

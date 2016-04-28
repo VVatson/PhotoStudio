@@ -9,8 +9,14 @@ namespace YouPhotoServerApp.Service
     public class Service : IService
     {
         private Socket _listener;
+        private readonly Model.Model _model;
         private const int Port = 11000;
         private const int RecieveBufferSize = 1024;
+
+        public Service(Model.Model model)
+        {
+            _model = model;
+        }
 
         public void Start()
         {
@@ -25,7 +31,7 @@ namespace YouPhotoServerApp.Service
                 _listener.Bind(ipEndPoint);
                 _listener.Listen(10);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // ignored
             }
@@ -38,7 +44,7 @@ namespace YouPhotoServerApp.Service
                     var thread = new Thread(ProcessConnection);
                     thread.Start(handler);
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     // ignored
                 }
@@ -56,8 +62,7 @@ namespace YouPhotoServerApp.Service
 
                 var recievedData = Encoding.UTF8.GetString(recieveBuffer, 0, bytesRecieved);
 
-
-                var answerToClient = "";
+                var answerToClient = _model.ProcessRequest(recievedData);
                 var msg = Encoding.UTF8.GetBytes(answerToClient);
                 
                 connection.Send(msg);
