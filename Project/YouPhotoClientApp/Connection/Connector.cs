@@ -1,6 +1,6 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 using System.Net.Sockets;
+using System.Text;
 
 namespace YouPhotoClientApp.Connection
 {
@@ -8,6 +8,7 @@ namespace YouPhotoClientApp.Connection
     {
         private Socket _sender;
         private const int Port = 11000;
+        private const int RecieveBufferSize= 1024;
 
         public void ConnectToServer()
         {
@@ -18,15 +19,20 @@ namespace YouPhotoClientApp.Connection
             _sender.Connect(ipEndPoint);
         }
 
-        public void RequestToServer()
-        {
-            throw new NotImplementedException();
-        }
-
         public void CloseConnection()
         {
             _sender.Shutdown(SocketShutdown.Both);
             _sender.Close();
+        }
+
+        public string RequestToServer(string request)
+        {
+            var msg = Encoding.UTF8.GetBytes(request);
+            _sender.Send(msg);
+
+            var recieveBuffer = new byte[RecieveBufferSize];
+            var bytesRecieved = _sender.Receive(recieveBuffer);
+            return Encoding.UTF8.GetString(recieveBuffer, 0, bytesRecieved);
         }
     }
 }

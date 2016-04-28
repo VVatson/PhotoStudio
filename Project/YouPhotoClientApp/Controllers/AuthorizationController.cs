@@ -23,5 +23,10 @@ namespace YouPhotoClientApp.Controllers
         {
             throw new NotImplementedException();
         }
+
+        public void LogOut()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
