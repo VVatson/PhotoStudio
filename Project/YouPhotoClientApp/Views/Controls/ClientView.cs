@@ -16,7 +16,7 @@ namespace YouPhotoClientApp.Views.Controls
             InitializeComponent();
         }
 
-        public void MakeOrder(string data)
+        public void MakeOrder(Order order)
         {
             throw new NotImplementedException();
         }

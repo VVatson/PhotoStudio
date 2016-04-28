@@ -6,5 +6,6 @@ namespace YouPhotoClientApp.Views.Interfaces
     {
         bool Autorize(string login, string password);
         void Register(string login, string password, UserType userType);
+        void LogOut();
     }
 }

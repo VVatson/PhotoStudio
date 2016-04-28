@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="YouPhotoServerApp.DataAccess" Collapsed="true">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\DataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YouPhotoServerApp.Program" Collapsed="true">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YouPhotoServerApp.DataBase.DataBase" Collapsed="true">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\DataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YouPhotoServerApp.Model.Model" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAEAAAAAAAAA=</HashCode>
+      <FileName>Model\Model.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="YouPhotoServerApp.Service.Service" BaseTypeListCollapsed="true">
+    <Position X="9" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\Service.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="YouPhotoServerApp.Structures.Order">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structures\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YouPhotoServerApp.Structures.User">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAACAAAQAAAAAAA=</HashCode>
+      <FileName>Structures\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="YouPhotoServerApp.IDataAccess">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\IDataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YouPhotoServerApp.Model.IModel">
+    <Position X="6.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\IModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YouPhotoServerApp.Service.IService">
+    <Position X="9" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\IService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="YouPhotoServerApp.Structures.Status">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Structures\Order.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="YouPhotoServerApp.Structures.UserType">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAIAQ=</HashCode>
+      <FileName>Structures\UserType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

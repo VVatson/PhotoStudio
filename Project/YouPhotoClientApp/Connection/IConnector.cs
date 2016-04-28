@@ -3,6 +3,7 @@
     internal interface IConnector
     {
         void ConnectToServer();
-        void RequestToServer();
+        void CloseConnection();
+        string RequestToServer(string request);
     }
 }

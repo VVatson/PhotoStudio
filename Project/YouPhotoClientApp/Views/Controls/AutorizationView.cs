@@ -15,12 +15,22 @@ namespace YouPhotoClientApp.Views.Controls
             InitializeComponent();
         }
 
+        public AutorizationView()
+        {
+            
+        }
+
         public bool Autorize(string login, string password)
         {
             throw new NotImplementedException();
         }
 
         public void Register(string login, string password, UserType userType)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void LogOut()
         {
             throw new NotImplementedException();
         }

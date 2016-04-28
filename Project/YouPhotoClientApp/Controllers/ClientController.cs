@@ -14,7 +14,7 @@ namespace YouPhotoClientApp.Controllers
             Model = model;
         }
 
-        public void MakeOrder(string data)
+        public void MakeOrder(Order order)
         {
             throw new NotImplementedException();
         }

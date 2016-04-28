@@ -13,5 +13,11 @@
             Password = password;
             UserType = userType;
         }
+
+        public User(string login, string password)
+        {
+            Login = login;
+            Password = password;
+        }
     }
 }

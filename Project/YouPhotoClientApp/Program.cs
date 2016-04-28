@@ -14,7 +14,7 @@ namespace YouPhotoClientApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AutorizationView(new Model.Model()));
+            Application.Run(new AutorizationView());
         }
     }
 }
