@@ -4,5 +4,6 @@
     {
         void ConnectToServer();
         void RequestToServer();
+        void CloseConnection();
     }
 }

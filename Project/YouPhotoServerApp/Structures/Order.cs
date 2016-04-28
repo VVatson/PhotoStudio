@@ -10,7 +10,7 @@
     public class Order
     {
         public string Data { get; set; } // instead photos to print, I think it's easier
-
-        Status Status;
+        public int Id { get; set; }
+        Status Status { get; set; } 
     }
 }

@@ -4,7 +4,7 @@ namespace YouPhotoClientApp.Controllers.Interfaces
 {
     internal interface IClientController
     {
-        void MakeOrder(string data);
+        void MakeOrder(Order order);
         void BreakOrder(Order order);
         OrderStatus CheckOrderStatus(Order order);
     }
