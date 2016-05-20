@@ -23,6 +23,8 @@ namespace YouPhotoClientApp.Structures
             Data = split[2];
         }
 
+        public Order() { }
+
         public override string ToString()
         {
             return string.Join("&", Id.ToString(), Status.ToString(), Data);

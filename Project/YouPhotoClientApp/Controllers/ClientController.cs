@@ -16,17 +16,17 @@ namespace YouPhotoClientApp.Controllers
 
         public void MakeOrder(Order order)
         {
-            throw new NotImplementedException();
+            Model.MakeOrder(order);
         }
 
         public void BreakOrder(Order order)
         {
-            throw new NotImplementedException();
+            Model.BreakOrder(order);
         }
 
         public OrderStatus CheckOrderStatus(Order order)
         {
-            throw new NotImplementedException();
+            return Model.CheckOrderStatus(order);
         }
     }
 }

@@ -16,17 +16,17 @@ namespace YouPhotoClientApp.Controllers
 
         public bool Autorize(string login, string password)
         {
-            throw new NotImplementedException();
+            return Model.Autorize(login, password);
         }
 
         public void Register(string login, string password, UserType userType)
         {
-            throw new NotImplementedException();
+            Model.Register(login, password, userType);
         }
 
         public void LogOut()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

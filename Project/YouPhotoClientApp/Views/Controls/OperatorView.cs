@@ -14,6 +14,7 @@ namespace YouPhotoClientApp.Views.Controls
         {
             Model = model;
             InitializeComponent();
+            this.ShowDialog();
         }
 
         public List<Order> GetOrders()

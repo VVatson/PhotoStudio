@@ -29,7 +29,7 @@ namespace YouPhotoServerApp.Model
         {
             var requestData = request.Split(new[] {";"}, StringSplitOptions.None);
             var command = (ServerCommands)Enum.Parse(typeof(ServerCommands), requestData[0]);
-            var answer = string.Empty;
+            var answer = "ok";
             switch (command)
             {
                 case ServerCommands.Autorize:

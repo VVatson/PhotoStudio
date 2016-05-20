@@ -16,17 +16,17 @@ namespace YouPhotoClientApp.Controllers
 
         public List<Order> GetOrders()
         {
-            throw new System.NotImplementedException();
+            return Model.GetOrders();
         }
 
         public Order ProcessOrder(Order order)
         {
-            throw new System.NotImplementedException();
+            return Model.ProcessOrder(order);
         }
 
         public void SetOrderStatus(Order order, OrderStatus status)
         {
-            throw new System.NotImplementedException();
+            Model.SetOrderStatus(order, status);
         }
     }
 }
