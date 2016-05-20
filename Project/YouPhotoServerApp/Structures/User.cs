@@ -19,5 +19,10 @@
             Login = login;
             Password = password;
         }
+
+        public override string ToString()
+        {
+            return string.Format("{0}&{1}&{2}", Login, Password, UserType.ToString());
+        }
     }
 }

@@ -1,48 +1,58 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using YouPhotoServerApp.Structures;
+using YouPhotoServerApp.DataBase;
 
 namespace YouPhotoServerApp.DataAccess
 {
     public class DataAccess: IDataAccess
     {
+        private DataBase.DataBase db = new DataBase.DataBase();
+        
         public bool IsUserInBase(User user)
         {
-            throw new System.NotImplementedException();
+            return db.IsUserInBase(user.ToString());
         }
 
         public void Register(User user)
         {
-            throw new System.NotImplementedException();
+            db.AddUser(user.ToString());
         }
 
         public void MakeOrder(Order order)
         {
-            throw new System.NotImplementedException();
+            db.AddOrder(order.ToString());
         }
 
         public void BreakOrder(Order order)
         {
-            throw new System.NotImplementedException(); 
+            db.RemoveOrder(order.ToString()); 
         }
 
         public Status CheckOrderStatus(Order order)
         {
-            throw new System.NotImplementedException();
+            return (Status)Enum.Parse(typeof(Status), db.CheckOrderStatus(order.ToString()));
         }
 
         public void SetOrderStatus(Order order, Status status)
         {
-            throw new System.NotImplementedException();
+            db.SetOrderStatus(order.ToString(), status.ToString());
         }
 
         public List<Order> GetOrders()
         {
-            throw new System.NotImplementedException();
+            var lines = db.GetOrders();
+            var orders = new List<Order>();
+            foreach (var line in lines)
+            {
+                orders.Add(new Order(line));
+            }
+            return orders;
         }
 
         public Order ProcessOrder(Order order)
         {
-            throw new System.NotImplementedException();   
+            return new Order(db.ProcessOrder(order.ToString()));
         }
     }
 }
