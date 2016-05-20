@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="YouPhotoClientApp.Program">
-    <Position X="18.75" Y="10.5" Width="1.5" />
+  <Class Name="YouPhotoClientApp.Program" Collapsed="true">
+    <Position X="11" Y="12.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="YouPhotoClientApp.Connection.Connector" BaseTypeListCollapsed="true">
-    <Position X="13.25" Y="15.5" Width="1.5" />
+    <Position X="8.75" Y="12.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AQAAAAEBAAAAAAABAAAAABAACAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Connection\Connector.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="YouPhotoClientApp.Controllers.AuthorizationController" BaseTypeListCollapsed="true">
-    <Position X="12" Y="11.75" Width="2.25" />
+    <Position X="6.5" Y="8.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAABAAAAAAgAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAABAAAgAAAAAAAAABAAAAAAgAAAAAAAA=</HashCode>
       <FileName>Controllers\AuthorizationController.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="YouPhotoClientApp.Controllers.ClientController" BaseTypeListCollapsed="true">
-    <Position X="6.25" Y="12" Width="1.5" />
+    <Position X="2.75" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgBAAAAAEA=</HashCode>
       <FileName>Controllers\ClientController.cs</FileName>
@@ -32,58 +32,65 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="YouPhotoClientApp.Controllers.ManagerController" BaseTypeListCollapsed="true">
-    <Position X="15.25" Y="11.75" Width="1.5" />
+    <Position X="4.75" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
       <FileName>Controllers\ManagerController.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.182" Collapsed="true" />
+    <Lollipop Position="0.187" Collapsed="true" />
   </Class>
   <Class Name="YouPhotoClientApp.Controllers.OperatorController" BaseTypeListCollapsed="true">
-    <Position X="8.75" Y="12" Width="2" />
+    <Position X="0.5" Y="8.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAI=</HashCode>
       <FileName>Controllers\OperatorController.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.182" Collapsed="true" />
+    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="YouPhotoClientApp.Model.Model" BaseTypeListCollapsed="true">
-    <Position X="10.75" Y="15.75" Width="1.5" />
+    <Position X="5.75" Y="11" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="YouPhotoClientApp.Model.Model.ServerCommands" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Model.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <HashCode>AAIAAQAAAAAAABAgAgACAAAAAAABAAAAAIABAAAAAEI=</HashCode>
       <FileName>Model\Model.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="YouPhotoClientApp.Properties.Resources">
-    <Position X="18.75" Y="11.75" Width="1.5" />
+  <Class Name="YouPhotoClientApp.Properties.Resources" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
     </TypeIdentifier>
   </Class>
-  <Class Name="YouPhotoClientApp.Properties.Settings">
-    <Position X="18.75" Y="14.25" Width="1.5" />
+  <Class Name="YouPhotoClientApp.Properties.Settings" Collapsed="true">
+    <Position X="11" Y="13.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
     </TypeIdentifier>
   </Class>
-  <Class Name="YouPhotoClientApp.Structures.Order">
-    <Position X="4.5" Y="14.25" Width="1.5" />
+  <Class Name="YouPhotoClientApp.Structures.Order" Collapsed="true">
+    <Position X="8.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAEAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
       <FileName>Structures\Order.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="YouPhotoClientApp.Views.Controls.AutorizationView" BaseTypeListCollapsed="true">
-    <Position X="12.25" Y="7.25" Width="1.5" />
+    <Position X="6" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAABAAAACAAAACAAABAAAAAAgAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAABAAAgCAAAACAAABAAAAAAgAAAAAAAA=</HashCode>
       <FileName>Views\Controls\AutorizationView.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="YouPhotoClientApp.Views.Controls.ClientView" BaseTypeListCollapsed="true">
-    <Position X="6.25" Y="6.75" Width="1.5" />
+    <Position X="2.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAIgBAAAAAEA=</HashCode>
       <FileName>Views\Controls\ClientView.cs</FileName>
@@ -91,7 +98,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="YouPhotoClientApp.Views.Controls.ManagerView" BaseTypeListCollapsed="true">
-    <Position X="15" Y="7" Width="1.5" />
+    <Position X="4.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAQAAACAAAAAAAACAAAACAAAAAAAAAAgAAAAAAAA=</HashCode>
       <FileName>Views\Controls\ManagerView.cs</FileName>
@@ -99,92 +106,92 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="YouPhotoClientApp.Views.Controls.OperatorView" BaseTypeListCollapsed="true">
-    <Position X="9" Y="7" Width="1.5" />
+    <Position X="0.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAIAAQAAACAAAAAAAACAAAACAAAAAAAAAAgAAAAAAAI=</HashCode>
+      <HashCode>AAIAAQAAACAAAAAAAACAAAACAAAAAAAAAIgBAAAAAEI=</HashCode>
       <FileName>Views\Controls\OperatorView.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Interface Name="YouPhotoClientApp.Connection.IConnector" Collapsed="true">
-    <Position X="13.25" Y="14.75" Width="1.5" />
+  <Interface Name="YouPhotoClientApp.Connection.IConnector">
+    <Position X="8.75" Y="10.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AQAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Connection\IConnector.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="YouPhotoClientApp.Controllers.Interfaces.IAuthorizationController">
-    <Position X="12" Y="10.25" Width="2.25" />
+    <Position X="6.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAABAAAgAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Controllers\Interfaces\IAuthorizationController.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="YouPhotoClientApp.Controllers.Interfaces.IClientController">
-    <Position X="6.25" Y="10.25" Width="1.5" />
+    <Position X="2.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAAAAAEA=</HashCode>
       <FileName>Controllers\Interfaces\IClientController.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="YouPhotoClientApp.Controllers.Interfaces.IManagerController">
-    <Position X="15" Y="10.25" Width="2.25" />
+    <Position X="4.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Controllers\Interfaces\IManagerController.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="YouPhotoClientApp.Controllers.Interfaces.IOperatorController">
-    <Position X="8.75" Y="10.25" Width="2" />
+    <Position X="0.5" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
       <FileName>Controllers\Interfaces\IOperatorController.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="YouPhotoClientApp.Model.IModel">
-    <Position X="10.75" Y="14.75" Width="1.5" />
+    <Position X="3.5" Y="11" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAIAAQAAAAAAABAAAgAAAAAAAAABAAAAAIABAAAAAEI=</HashCode>
       <FileName>Model\IModel.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="YouPhotoClientApp.Views.Interfaces.IAutorizationView">
-    <Position X="12.25" Y="5.75" Width="1.5" />
+    <Position X="6" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAABAAAgAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\Interfaces\IAutorizationView.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="YouPhotoClientApp.Views.Interfaces.IClientView">
-    <Position X="6.25" Y="5" Width="1.5" />
+    <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAAAAAEA=</HashCode>
       <FileName>Views\Interfaces\IClientView.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="YouPhotoClientApp.Views.Interfaces.IManagerView">
-    <Position X="15" Y="5.5" Width="1.5" />
+    <Position X="4.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\Interfaces\IManagerView.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="YouPhotoClientApp.Views.Interfaces.IOperatorView">
-    <Position X="9" Y="5.25" Width="1.5" />
+    <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
       <FileName>Views\Interfaces\IOperatorView.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="YouPhotoClientApp.Structures.OrderStatus" Collapsed="true">
-    <Position X="4.5" Y="13.5" Width="1.5" />
+    <Position X="8.5" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
       <FileName>Structures\Order.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="YouPhotoClientApp.Structures.UserType" Collapsed="true">
-    <Position X="4.5" Y="12.75" Width="1.5" />
+    <Position X="8.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAIAQ=</HashCode>
       <FileName>Structures\UserType.cs</FileName>
